@@ -8,3 +8,4 @@ milk
 onions
 water
 hamburger meat
+ice cream
