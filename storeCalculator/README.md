@@ -1,5 +1,5 @@
 # Overview
-Basic Calculator that will calculate the total cost of each item that was inputed into the screen. Once that total number has been put in, it will calculate tax and print the final total cost of all items. 
+Basic Calculator that will calculate the total cost of each item that was inputed into the screen. Once that total number has been put in, it will calculate tax and print the final total cost of all items. It will also print the items listed in the grocery list. 
 
 # Development Environment
 * Visual Studio Code
@@ -7,7 +7,7 @@ Basic Calculator that will calculate the total cost of each item that was inpute
 
 # Execution
 To execute program: python calculator.py 
-![screenshot of example result of pogram](calculator.PNG)
+![screenshot of example result of pogram](newCalculator.PNG)
 
 # Useful Websites
 Websites that were extra help to me to get the program running
