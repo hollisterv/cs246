@@ -26,18 +26,31 @@ ALTER TABLE birthdays
     ADD PRIMARY KEY (user_id);
 
 --printing to the screen
-SELECT * FROM birthdays;
+SELECT user_id AS "Family Number",
+        birth_day AS "Birthday",
+        name,
+        address
+FROM birthdays;
 
 --adding new information to the table
 INSERT INTO birthdays (user_id, birth_day, name, address)
 Values (10, '2013-11-01', 'Puppy', '430 N Scottsdale Rd, Suite A112, Tempe, Arizona 85281');
 
 --added puppy and printed to the screen
-SELECT * FROM birthdays;
+SELECT user_id AS "Family Number",
+        birth_day AS "Birthday",
+        name,
+        address
+FROM birthdays;
 
 --delete puppy from TABLE
 DELETE FROM birthdays
 WHERE user_id = 10;
 
---print new table onto screen
-SELECT * FROM birthdays;
+--print new table onto screen with filtered date
+SELECT user_id AS "Family Number",
+        birth_day AS "Birthday",
+        name,
+        address
+FROM birthdays
+WHERE birth_day > '1998-10-11';
