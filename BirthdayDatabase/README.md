@@ -1,7 +1,7 @@
 # Overview
-This database was originally intended to make note of family members' birthdays and addresses. To keep their identity and personal information private, i have made fake information for the sake of practicing my new skills in PostgreSQL. 
+This database was originally intended to make note of family members' birthdays and addresses. To keep their identity and personal information private, I have made fake information for the sake of practicing my new skills in PostgreSQL. 
 
-I have also added some stretch goals with joining two tables together, adding an aggregate function and adding dates and filtering by those dates. i have inlcuded pictures of the results of each new technique. 
+I have also added some stretch goals with joining two tables together, adding an aggregate function and adding dates and filtering by those dates. I have inlcuded pictures of the results of each new technique. 
 
 # Development Environent
 * visual Studio Code 
