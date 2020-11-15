@@ -21,4 +21,32 @@ fun main() {
     println(squares)
 
     //this part is the calculation
+    //this calculation tells the user how large their blocks need to be
+    val seam = 0.5
+    var calculate = (wide / squares) + seam
+
+    //printing the size of the quiltable block to the screen
+    val response1 = "We have calculated your result! Your desired quilt width is "
+    val response2 = " and you wanted \n"
+    val response3 = " squares in this row. You should cut your blocks to be "
+    val response4 = " inches, this includes \nyour 1/4 inch seam allowance on both sides."
+    println(response1 + wide + response2 + squares + response3 + calculate + response4)
+
+    //continuing with how many rows are needed for the quilt
+    //will calculate how many rows needed to finish quilt
+    println("\nLet's find out how many rows you need!")
+    println("How long (in inches) do you want your quilt to be?")
+    var length = 60
+    //pretends to receive user response
+    println(length)
+    
+    //calculation
+    var totalRows = length / (wide/squares)
+    println("\nWe have calculated how many rows will be added to make the " + wide + " X " + length)
+    println("quilt! It will take " + totalRows + " rows to complete the quilt!")
+
+    //calculating how many total squares it will take
+    var totalSquares = totalRows * squares
+
+    println("\nYou will cut a total of " + totalSquares + " to finish your quilt!") 
 }
