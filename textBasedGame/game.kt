@@ -54,8 +54,9 @@ fun gamePlay() {
 }
 
 fun restartGame(){
-    println("Thanks for playing! Would you like to play again? (y/n")
+    println("Thanks for playing! Would you like to play again? (y/n)")
     var replay = "n"
+    println("n")
     if (replay == "y"){
         println("Let us play again!")
         gamePlay()
